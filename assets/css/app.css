@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('../font/Louis George Cafe.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Light';
+    src: url('../font/Louis George Cafe Light.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Light Italic';
+    src: url('../font/Louis George Cafe Light Italic.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Light Italic';
+    src: url('../font/Louis George Cafe Light Italic.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Italic';
+    src: url('../font/Louis George Cafe Italic.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Bold';
+    src: url('../font/Louis George Cafe Bold.ttf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Louis George Cafe Bold Italic';
+    src: url('../font/Louis George Cafe Bold Italic.ttf') format("opentype");
+}
+
+* {
+    font-family: 'Louis George Cafe';
+    scrollbar-width: thin;
+    scrollbar-color:rgba(37, 63, 101, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(37, 63, 101, 0.3);
+    border-radius: 1ex;
+}
+
+.l-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0.5px rgba(0, 0, 0, 0.05), 0px 0px 0.5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding:25px;
+}
+
+.l-card h3 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #04151F;
+    text-transform: capitalize;
+    margin:0px;
+    padding:0px;
+    font-family: 'Louis George Cafe Bold';
+}
+
+.l-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #253F66;
+    float:right;
+    font-family: 'Louis George Cafe Bold';
+}
+
+.l-card .no-data {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #424651;
+}
+
+.l-card .img {
+    display:block;
+    margin:20px auto;
+}
+
+.titan-orange-btn {
+    background: #FC4E2B;
+    border-radius: 4px;
+    color:#fff;
+    text-transform: capitalize;
+    padding:15px;
+}
+
+.equal-height {
+    min-height:480px;
+    max-height:480px;
+    overflow: hidden;
+}
